@@ -1,0 +1,20 @@
+.largeTile:hover{
+        background-color: #279cac;
+        /* cursor: pointer; */
+        box-shadow: 6px 6px 6px 6px #181620;
+}
+.largeTile{
+        font-family: Poppins;
+        font-size: smaller;
+        color: aliceblue;
+}
+
+.text{
+        /* color: orange; */
+        color: aliceblue;
+        padding: 15px;
+}
+
+#largeText{
+        font-size: 1em;
+}

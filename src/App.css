@@ -1,0 +1,204 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.searchBox {
+  border-radius: 5px;
+  background-color: #353440;
+  /* color: #808191 !important; */
+  width: 50%;
+}
+
+
+
+.filterBox {
+  border-radius: 5px;
+  background-color: #353440;
+  /* color: #808191 !important; */
+  width: 25%;
+}
+
+/* #filtered{
+  margin-right: 150px;
+} */
+
+.sideNav {
+  position: 'absolute';
+  height: '100%';
+  background-color: #353440;
+}
+
+.textfield__label{
+  color: #808191 !important;
+}
+/* .SearchBox {
+  margin-top: 20px;
+} */
+
+.App-header {
+  background-color: #1f1d2b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* justify-content: flex-start; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border: none;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.landingContent{
+  /* background-color: blue; */
+  /* width: calc(100% - 240px) !important; */
+  /* margin-left: 240px; */
+  margin-top: 5px !important;
+}
+
+.soldContent{
+  /* width: calc(100% - 240px) !important; */
+  /* margin-left: 240px !important; */
+  margin-top: 5px !important;
+  /* margin: 5px 5px 5px 5px !important; */
+  /* margin-top: 5px !important; */
+}
+
+.HeadTile{
+  color: aliceblue;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 1.5em;
+  /* justify-content: center; */
+  justify-items: center;
+}
+
+.SOMETHING{
+  background-color: lime;
+}
+
+.pageH3{
+  font-size: 1em;
+  font-weight: 400;
+}
+
+/* .pageHeader{
+  /* background-color: lime; */
+/* } */ 
+
+
+
+.pageSub{
+  font-size: x-large;
+  margin-bottom: 0;
+}
+
+.largeTitle{
+  color: aliceblue;
+  font-family: Poppins;
+  font-weight: 400;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.recentList{
+  padding-top: 20px;
+  list-style: none;
+  padding-left: 100px;
+  font-size: large;
+}
+
+.recentList td{
+  padding: 10px 80px 10px 0;
+  /* color: aliceblue; */
+}
+
+.recentList tr{
+  color: aliceblue;
+}
+
+.recentList tr:hover{
+  color: lightgray;
+  text-decoration: underline;
+  /* font-size: 1.1em; */
+}
+
+.recentList th{
+  color: aliceblue;
+}
+
+.mediumTitle{
+  padding-top: 20px;
+  color: aliceblue;
+  font-family: Poppins;
+  font-weight: 400;
+}
+
+.routeLink{
+  text-decoration: none;
+  color: aliceblue;
+
+}
+
+.routeLink:hover{
+    color: lightgray;
+}
+
+.pageText {
+  font-size: 20px;
+  /* color: orange; */
+}
+
+/* .navLink{
+  height: 24px;
+} */
+
+#demo-simple-select{
+  background-color: #353440;
+  color: #f0f8ff;
+  /* width: 200px;
+  height: 30px;
+  border-radius: 5px; */
+  width: 165px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+#demo-simple-select-label{
+  color: #f0f8ff;
+  z-index: 500;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+#filter{
+  padding-right: 35px;
+  /* height: 40px; */
+  /* padding-left: 50px; */
+}
+
+.search{
+  background-color: lime;
+}
