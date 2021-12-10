@@ -16,7 +16,7 @@
         display: grid;
       }
 
-.topCar, .bottomCar {
+.topCar, .bottomCar, .cover {
         grid-column: 1;
         grid-row: 1;
 }
@@ -73,4 +73,40 @@
 
 .carDivider{
         height: 10px;
+}
+
+.grid:hover .cover {
+        height: 140px;
+        display: block;
+        /* transition: 2s; */
+}
+
+@keyframes growDown {
+        0% {
+          transform: scaleY(0)
+        }
+        80% {
+          transform: scaleY(1.1)
+        }
+        100% {
+          transform: scaleY(1)
+        }
+      }
+
+.cover {
+        animation: growDown 300ms ease-in-out forwards;
+        transform-origin: top;
+        transition: 2s;
+        border-radius: 20px;
+        display: none;
+        z-index: 1;
+        height: 0px;
+        background-color: #252836;
+        font-size: 0.6em;
+        text-align: left;
+        padding-left: 20px;
+        /* margin-top: 10px; */
+        padding-top: 10px;
+        letter-spacing: 0.35em;
+        max-height: 150px;
 }
